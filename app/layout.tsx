@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "PT Pilar Bambu Persada | Kontraktor Bangunan",
+  title: "Bajatama Group - Kontraktor Profesional",
   description:
     "Kontraktor profesional yang mengutamakan kualitas, ketepatan waktu, dan keamanan.",
 };
