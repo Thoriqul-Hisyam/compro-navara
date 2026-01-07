@@ -511,7 +511,7 @@ ${formData.catatan || "-"}`;
       {/* Footer */}
       <div className="bg-white border-t mt-12">
         <div className="max-w-4xl mx-auto px-4 py-6 text-center text-gray-600">
-          <p>© 2025 Navara. Semua hak dilindungi.</p>
+          <p>©2025 Navara. Semua hak dilindungi.</p>
         </div>
       </div>
     </div>
