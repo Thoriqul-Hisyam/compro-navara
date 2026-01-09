@@ -78,9 +78,11 @@ const Navbar = () => {
               ))}
 
               <div className="px-4 pt-2">
-                <Button variant="hero" size="lg" className="w-full">
-                  Pesan Sekarang
-                </Button>
+                <Link href="/booking" passHref>
+                  <Button variant="hero" size="lg" className="w-full">
+                    Pesan Sekarang
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
