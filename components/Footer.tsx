@@ -18,7 +18,7 @@ const Footer = () => {
             </Link>
 
             <p className="text-foreground/70 max-w-md mb-6">
-              Penyedia layanan perjalanan wisata premium dengan bus mewah ke
+              Penyedia layanan perjalanan wisata premium dengan armada mewah ke
               berbagai destinasi eksotis di Indonesia. Pengalaman tak terlupakan
               dengan pelayanan terbaik.
             </p>

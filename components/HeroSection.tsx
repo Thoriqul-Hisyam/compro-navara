@@ -15,7 +15,7 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <Image
           src={heroImage}
-          alt="Luxury tour bus on scenic mountain road"
+          alt="Luxury tour armada on scenic mountain road"
           fill
           priority
           className="object-cover"
@@ -31,7 +31,7 @@ const HeroSection = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 mb-6 sm:mb-8 animate-fade-in-up">
             <span className="w-2 h-2 rounded-full bg-orange-700 animate-pulse" />
             <span className="text-xs sm:text-sm font-medium text-primary-foreground">
-              Premium Bus Tour Experience
+              Premium Armada Tour Experience
             </span>
           </div>
 
@@ -43,7 +43,7 @@ const HeroSection = () => {
 
           {/* Subheadline */}
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-primary-foreground/80 max-w-xl sm:max-w-2xl mx-auto mb-8 sm:mb-10 animate-fade-in-up animation-delay-200">
-            Rasakan pengalaman perjalanan wisata premium dengan bus mewah ke
+            Rasakan pengalaman perjalanan wisata premium dengan armada mewah ke
             destinasi eksotis di seluruh Indonesia
           </p>
 

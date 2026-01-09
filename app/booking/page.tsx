@@ -109,7 +109,7 @@ export default function BusBookingSystem() {
 
   const handleSubmit = () => {
     const selectedArmada = armadaList.find((a) => a.id === formData.armada);
-    const message = `*PEMESANAN ARMADA BUS*
+    const message = `*PEMESANAN ARMADA*
 
 📅 *Jadwal Sewa:*
 Dari: ${formData.tanggalBerangkat}
@@ -193,8 +193,8 @@ ${formData.catatan || "-"}`;
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6 flex items-start gap-3">
               <AlertCircle className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
               <p className="text-blue-800 text-sm">
-                Pilih tanggal untuk mengecek ketersediaan armada bus. Armada
-                yang sudah penuh tidak dapat dipilih.
+                Pilih tanggal untuk mengecek ketersediaan armada. Armada yang
+                sudah penuh tidak dapat dipilih.
               </p>
             </div>
 
@@ -246,9 +246,7 @@ ${formData.catatan || "-"}`;
           <div className="bg-white rounded-xl shadow-lg p-8">
             <div className="flex items-center gap-3 mb-6">
               <Bus className="w-8 h-8 text-[#B57A36]" />
-              <h2 className="text-2xl font-bold text-gray-800">
-                Pilih Armada Bus
-              </h2>
+              <h2 className="text-2xl font-bold text-gray-800">Pilih Armada</h2>
             </div>
 
             <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-6 flex items-start gap-3">

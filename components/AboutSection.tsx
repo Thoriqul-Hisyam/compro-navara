@@ -7,9 +7,9 @@ import boatCabinImage from "@/assets/boat-cabin.jpg";
 const features = [
   {
     icon: Bus,
-    title: "Bus Premium",
+    title: "Armada Premium",
     description:
-      "Perjalanan nyaman dengan bus mewah ber-AC, kursi reclining, dan fasilitas hiburan",
+      "Perjalanan nyaman dengan armada mewah ber-AC, kursi reclining, dan fasilitas hiburan",
   },
   {
     icon: Shield,
@@ -41,7 +41,7 @@ const AboutSection = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-large">
               <Image
                 src={boatCabinImage}
-                alt="Premium bus interior"
+                alt="Premium armada interior"
                 className="w-full aspect-square object-cover"
                 priority={false}
               />
@@ -81,7 +81,7 @@ const AboutSection = () => {
 
             <p className="text-lg text-muted-foreground mb-8">
               Navara Trip adalah penyedia layanan perjalanan wisata premium yang
-              mengkhususkan diri pada pengalaman tour dengan bus mewah ke
+              mengkhususkan diri pada pengalaman tour dengan armada mewah ke
               berbagai destinasi eksotis di Indonesia. Kami menawarkan Open Trip
               dan Private Trip dengan pelayanan terbaik.
             </p>
