@@ -1,33 +1,33 @@
 "use client";
 
 import Image from "next/image";
-import { Bus, Shield, Camera, Utensils } from "lucide-react";
+import { Bus, Shield, Car, Users, Star } from "lucide-react";
 import boatCabinImage from "@/assets/boat-cabin.jpg";
 
 const features = [
   {
-    icon: Bus,
-    title: "Armada Premium",
+    icon: Car,
+    title: "Rental Mobil & Bus",
     description:
-      "Perjalanan nyaman dengan armada mewah ber-AC, kursi reclining, dan fasilitas hiburan",
+      "Pilihan armada lengkap dari mobil keluarga hingga bus pariwisata untuk berbagai kebutuhan",
+  },
+  {
+    icon: Users,
+    title: "Layanan Pengemudi",
+    description:
+      "Driver profesional dan berpengalaman yang siap memberikan rasa aman selama perjalanan",
   },
   {
     icon: Shield,
-    title: "Keamanan Terjamin",
+    title: "Proteksi Menyeluruh",
     description:
-      "Driver berpengalaman, asuransi perjalanan, dan standar keselamatan tinggi",
+      "Setiap armada dilengkapi asuransi dan melalui pengecekan rutin standar keamanan",
   },
   {
-    icon: Camera,
-    title: "Dokumentasi Premium",
+    icon: Bus,
+    title: "Jaringan Luas",
     description:
-      "Dapatkan foto & video dengan Drone, GoPro, dan kamera profesional",
-  },
-  {
-    icon: Utensils,
-    title: "Kuliner Istimewa",
-    description:
-      "Nikmati hidangan lezat di restoran lokal terbaik selama perjalanan",
+      "Akses layanan mudah dengan jaringan operasional di berbagai kota besar di Indonesia",
   },
 ];
 
@@ -51,19 +51,19 @@ const AboutSection = () => {
             <div className="absolute -bottom-6 -right-6 md:-right-12 bg-card p-6 rounded-xl shadow-large max-w-xs">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-12 h-12 rounded-full bg-gradient-brand flex items-center justify-center">
-                  <Bus className="w-6 h-6 text-primary-foreground" />
+                  <Star className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
                   <div className="font-serif text-xl font-bold text-card-foreground">
-                    7+ Tahun
+                    Solusi Total
                   </div>
                   <div className="text-sm text-muted-foreground">
-                    Pengalaman
+                    Transportasi
                   </div>
                 </div>
               </div>
               <p className="text-sm text-muted-foreground">
-                Melayani wisatawan dari seluruh Indonesia dan mancanegara
+                Layanan terintegrasi mulai dari sewa harian hingga korporat
               </p>
             </div>
           </div>
@@ -75,15 +75,15 @@ const AboutSection = () => {
             </div>
 
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Pengalaman Perjalanan{" "}
-              <span className="text-gradient-earth">Tak Terlupakan</span>
+              Pilihan Utama Solusi{" "}
+              <span className="text-gradient-earth">Transportasi Anda</span>
             </h2>
 
             <p className="text-lg text-muted-foreground mb-8">
-              Navara Trip adalah penyedia layanan perjalanan wisata premium yang
-              mengkhususkan diri pada pengalaman tour dengan armada mewah ke
-              berbagai destinasi eksotis di Indonesia. Kami menawarkan Open Trip
-              dan Private Trip dengan pelayanan terbaik.
+              Navara adalah penyedia layanan transportasi terintegrasi yang menghadirkan 
+              kenyamanan dan keamanan bagi mobilitas Anda. Sebagai partner perjalanan terpercaya, 
+              kami berkomitmen menyediakan armada berkualitas tinggi dan pelayanan prima untuk 
+              kebutuhan personal maupun bisnis.
             </p>
 
             {/* Features */}

@@ -2,9 +2,9 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Navara - Jelajahi Keindahan Nusantara",
+  title: "Navara - Partner di Setiap Kilometer",
   description:
-    "Rasakan pengalaman perjalanan wisata premium dengan bus mewah ke destinasi eksotis di seluruh Indonesia",
+    "Solusi transportasi terintegrasi dari Navara. Sewa mobil, bus, dan layanan pengemudi profesional untuk kebutuhan bisnis dan pribadi.",
 };
 
 export default function RootLayout({

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Bus } from "lucide-react";
 import { useRouter } from "next/navigation";
@@ -12,8 +13,7 @@ const Navbar = () => {
   const navLinks = [
     { label: "Beranda", href: "#home" },
     { label: "Tentang Kami", href: "#about" },
-    { label: "Destinasi", href: "#destinations" },
-    { label: "Paket Trip", href: "#packages" },
+    { label: "Layanan", href: "#destinations" },
     { label: "Kontak", href: "#contact" },
   ];
 
@@ -23,10 +23,13 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="#home" className="flex items-center gap-2">
-            <Bus className="w-8 h-8 text-primary" />
-            <span className="font-serif text-2xl font-bold text-foreground">
-              Navara Trip
-            </span>
+            <Image
+              src="/logo.png"
+              alt="Navara Logo"
+              width={720}
+              height={720}
+              className="h-25 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
