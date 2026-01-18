@@ -229,9 +229,9 @@ function BookingContent() {
     
 Mohon info ketersediaan dan total biayanya. Terima kasih.`
 
-    const encodedMessage = encodeURIComponent(message)
-    window.open(`https://wa.me/6289664365030?text=${encodedMessage}`, "_blank")
-  }
+    const encodedMessage = encodeURIComponent(message);
+    window.open(`https://wa.me/628113556799?text=${encodedMessage}`, "_blank");
+  };
 
   return (
     <div className="min-h-screen bg-white">
