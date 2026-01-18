@@ -34,11 +34,11 @@ const Footer = () => {
             <div className="space-y-4 mb-8 text-center md:text-right">
               <div className="flex items-start md:justify-end gap-3 text-sm text-foreground/70">
                 <MapPin className="w-5 h-5 text-primary shrink-0" />
-                <span>Jl. Raya Transportasi No. 123, Jakarta Selatan, Indonesia</span>
+                <span>Jl. Merr Boulevard No. 22, Rungkut, Surabaya</span>
               </div>
               <div className="flex items-center md:justify-end gap-3 text-sm text-foreground/70">
                 <Phone className="w-5 h-5 text-primary shrink-0" />
-                <span>Call Center: 1500 009</span>
+                <span>Call Center: +62 811-3556-799</span>
               </div>
             </div>
 

@@ -48,7 +48,7 @@ const ContactSection = () => {
               </a>
 
               <a
-                href="https://wa.me/6281234567890"
+                href="https://wa.me/628113556799"
                 className="flex items-center gap-4 p-4 rounded-lg bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors"
               >
                 <div className="w-12 h-12 rounded-full bg-primary-foreground/20 flex items-center justify-center">
@@ -57,7 +57,7 @@ const ContactSection = () => {
                 <div>
                   <div className="font-semibold">WhatsApp</div>
                   <div className="text-sm text-primary-foreground/70">
-                    +62 812-3456-7890
+                    +62 811-3556-799
                   </div>
                 </div>
               </a>
@@ -69,7 +69,7 @@ const ContactSection = () => {
                 <div>
                   <div className="font-semibold">Email</div>
                   <div className="text-sm text-primary-foreground/70">
-                    hello@navaratrip.com
+                    info@navaratrip.com
                   </div>
                 </div>
               </div>
@@ -81,7 +81,7 @@ const ContactSection = () => {
                 <div>
                   <div className="font-semibold">Lokasi</div>
                   <div className="text-sm text-primary-foreground/70">
-                    Jakarta, Indonesia
+                    Jl. Merr Boulevard No. 22, Rungkut, Surabaya
                   </div>
                 </div>
               </div>
@@ -109,7 +109,7 @@ const ContactSection = () => {
                     No. WhatsApp
                   </label>
                   <Input
-                    placeholder="+62 812-xxxx-xxxx"
+                    placeholder="+62 8xxx-xxxx-xxxx"
                     className="bg-muted/50 border-border"
                   />
                 </div>

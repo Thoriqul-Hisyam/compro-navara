@@ -92,7 +92,7 @@ export default function BookingPage() {
 Mohon info ketersediaan dan total biayanya. Terima kasih.`;
 
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/6289664365030?text=${encodedMessage}`, "_blank");
+    window.open(`https://wa.me/628113556799?text=${encodedMessage}`, "_blank");
   };
 
   return (
